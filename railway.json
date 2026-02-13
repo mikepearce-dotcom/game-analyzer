@@ -1,0 +1,22 @@
+{
+  "name": "Sentient Tracker",
+  "description": "Game Community Pulse - Reddit sentiment analyzer",
+  "variables": {
+    "MONGO_URL": {
+      "description": "MongoDB connection string",
+      "value": ""
+    },
+    "DB_NAME": {
+      "description": "MongoDB database name",
+      "value": "sentient_tracker"
+    },
+    "OPENAI_API_KEY": {
+      "description": "OpenAI API key for GPT-4o-mini",
+      "value": ""
+    },
+    "CORS_ORIGINS": {
+      "description": "Comma-separated list of allowed CORS origins",
+      "value": "http://localhost:3000,http://localhost:8000"
+    }
+  }
+}
